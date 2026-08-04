@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: CI/CD Testing
-        run: echo "ci/cd testing"
+        run: echo "ci/cd live done"
