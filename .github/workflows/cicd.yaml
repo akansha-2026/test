@@ -1,8 +1,8 @@
 name: cicd testing 
 on: push
-job: 
+jobs: 
   greet:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
-      - name: "cicd testing"
+      - name: CI/CD Testing
         run: echo "ci/cd testing"
